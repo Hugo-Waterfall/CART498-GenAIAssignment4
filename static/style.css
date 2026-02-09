@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(#21213b, #0f0f1a);
+    color: #eaeaea;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    animation: pulse-glow 2.0s infinite alternate;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@keyframes pulse-glow {
+  0% {
+    text-shadow: 
+      0 0 50px #1a1a2e;
+  }
+  100% {
+    text-shadow: 
+
+      0 0 60px rgb(255, 255, 255);
+  }
+}
+
+textarea {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #6a5acd, #9370db);
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+.alert-secondary {
+    background-color: #161625;
+    color: #ddd;
+    border-left: 4px solid #6a5acd;
+}
+
+.image-frame {
+    width: 420px;              
+    height: 420px;              
+    background: #0b0b14;
+    border: 1px solid #333;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    box-shadow: 0 0 30px rgba(106, 90, 205, 0.25);
+    overflow: hidden;
+    margin: 0 auto;            
+}
